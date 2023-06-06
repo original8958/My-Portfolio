@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d36ce3be24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#id">Contact</a>
+                    </li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>ui/ux Designer</p>
+                <h1>Hi, I'm <span>  Abhishek Pandey </span> <br> From Rampur </h1>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+    <!--------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> <img src="images/user.png" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me </h1> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolore et atque at quis iusto ex eius dicta! Sint itaque nesciunt deserunt maiores similique necessitatibus quas laboriosam repellendus dolorum ex. Nobis optio quidem ipsam illo soluta praesentium repudiandae quam quis quos, nihil ipsum ullam, commodi perspiciatis tempora molestiae error amet. Veniam ea voluptate dolores rerum molestias alias? Praesentium consequatur possimus omnis. Eos exercitationem illo neque blanditiis similique labore perferendis ea nisi. Consequatur voluptate amet accusamus quos atque fugiat, dolores iure velit officiis libero voluptates similique magnam illum neque ullam consectetur fugit dolorum, aut unde facere exercitationem? Sequi magnam architecto saepe!</p>
+                   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>web development</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019- current</span><br>Harcourt buttler technical university, kanpur</li>
+                            <li><span>2019-2021</span><br>Team lead at atarapp LLC.</li>
+                            <li><span> 2017-2019</span><br>UI/UX Design Executive at coin Digital Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design at ET institute</li>
+                            <li><span>2016</span><br>M.Tech from IIT Delhi</li>
+                            <li><span>2014</span><br>B.tech from HBTU</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+ <!----------services------>
+    <div id="services">
+        <div id="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-sharp fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, dolorum doloremque. A, ipsam minima facilis dolore beatae veniam exercitationem sequi.</p>
+            <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, dolorum doloremque. A, ipsam minima facilis dolore beatae veniam exercitationem sequi.</p>
+            <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, dolorum doloremque. A, ipsam minima facilis dolore beatae veniam exercitationem sequi.</p>
+            <a href="#">learn more</a>
+        </div>
+    </div>
+</div>
+<br>
+<br><br><br>
+<hr>
+
+<!-----------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3 class="heading ">Social Media App</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolore aliquid fuga autem sed labore asperiores cum deserunt hic animi!</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3 class="heading">Music App</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolore aliquid fuga autem sed labore asperiores cum deserunt hic animi!</p>
+                    <a href="#"></a>
+            </div>
+        </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3 class="heading">Online Shopping App</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolore aliquid fuga autem sed labore asperiores cum deserunt hic animi!</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+<hr>
+<!----------contact---------->
+<div id="id">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0987654321</p>
+            <div class="Social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a> 
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""></a><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV </a> 
+        </div>
+        <div class="contact-right">
+            <form >
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email"required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="Submit" class="btn btn2">Submit</button>
+        </form>
+        </div>
+    </div>
+   
+    </div>
+</div> 
+<div class="copyright">
+    <p>Copyright @ Abhishek. Made with by original Pandey</p>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
